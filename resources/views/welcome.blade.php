@@ -252,7 +252,9 @@
         </div>
     </div>
     <div class="lg:absolute bg-blue-950 lg:inset-y-0 lg:right-0 lg:w-1/2 h-screen ">
-        <img class="w-full h-screen object-cover object-top  lg:w-full " src="https://talksport.com/wp-content/uploads/sites/5/2022/11/2022-group-h-match-portugal-779033372.jpg" alt="">
+        <img class="w-full h-screen object-cover object-top  sm:hidden " src="/cover.jpeg" alt="">
+        <img class="w-full h-screen object-cover object-top   " src="/big_cover.jpeg" alt="">
+
     </div>
 </div>
 
