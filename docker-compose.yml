@@ -9,7 +9,7 @@ services:
         extra_hosts:
             - 'host.docker.internal:host-gateway'
         ports:
-            - '81:80'
+            - '82:80'
         environment:
             WWWUSER: '${WWWUSER}'
             LARAVEL_SAIL: 1
