@@ -3889,7 +3889,7 @@
                     <div class="w-layout-grid contact-details-grid">
                         <a
                             id="w-node-d5940d1b-0e4c-1dba-d1f0-6c6f4c06b537-0d6b3876"
-                            href="#"
+                            href="mailto:eduardo.gomara.sagastume@gmail.com"
                             class="contact-link-block w-inline-block"
                         ><div>Email</div>
                             <div class="contact-link-arrow w-embed">
@@ -3906,7 +3906,7 @@
                                 </svg></div></a
                         ><a
                             id="w-node-_941ee226-fd6d-e4db-16f3-c4120dc5552d-0d6b3876"
-                            href="#"
+                            href="https://github.com/sagastvme"
                             class="contact-link-block w-inline-block"
                         ><div>Github</div>
                             <div class="contact-link-arrow w-embed">
@@ -3923,7 +3923,7 @@
                                 </svg></div></a
                         ><a
                             id="w-node-_96e68ad6-e8f9-cd19-8e24-224f9bb2b752-0d6b3876"
-                            href="#"
+                            href="https://www.linkedin.com/in/sagastvme/"
                             class="contact-link-block w-inline-block"
                         ><div>LinkedIn</div>
                             <div class="contact-link-arrow w-embed">
