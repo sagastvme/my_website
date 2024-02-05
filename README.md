@@ -22,8 +22,7 @@ I'm Eduardo Sagastume, a passionate software developer with a strong focus on pr
 
 If you have any questions, ideas, or collaboration opportunities, feel free to get in touch with me:
 
-📧 **Email:** [Your Email Address]
-🌐 **GitHub:** [My GitHub Profile](https://github.com/sagastvme)
-💼 **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile)
+📧 **Email:** eduardo.gomara.sagastume@gmail.com
+💼 **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/sagastvme/)
 
 Thank you for visiting my portfolio website! 🙌
