@@ -38,3 +38,28 @@ h1 a {
 h2 a {
     color: #444;
 }
+
+.horizontal-menu {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  display: flex; /* Aligns items in a row */
+}
+
+.horizontal-menu li {
+  margin-right: 15px; /* Adds space between items */
+}
+
+.horizontal-menu li:last-child {
+  margin-right: 0; /* Removes space after the last item */
+}
+
+.horizontal-menu a {
+  text-decoration: underline; /* Removes underline from links */
+  color: #333; /* Sets link color */
+  font-weight: bold;
+}
+
+.horizontal-menu a:hover {
+  color: orangered; /* Changes color on hover */
+}
