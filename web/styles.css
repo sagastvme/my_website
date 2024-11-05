@@ -1,65 +1,83 @@
-
+/* Base styling */
 body {
-    margin: 40px auto;
-    max-width: 768px;
-    line-height: 1.6;
-    font-size: 20px;
-    color: #444;
-    padding: 0 10px;
+  margin: 40px auto;
+  max-width: 768px;
+  line-height: 1.6;
+  font-size: 20px;
+  color: #444;
+  padding: 0 10px;
 }
 
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  body {
+      margin: 0;
+      padding: 0 5px; /* Reduced padding for mobile */
+      max-width: 100%; /* Allows body to fit the screen width */
+  }
+
+  .horizontal-menu {
+      flex-direction: column; /* Stack menu items vertically on small screens */
+      align-items: flex-start; /* Align items to the left */
+  }
+
+  .horizontal-menu li {
+      margin-right: 0;
+      margin-bottom: 10px; /* Space between items in vertical stack */
+  }
+
+  .horizontal-menu li:last-child {
+      margin-bottom: 0;
+  }
+
+  /* Adjust font size for better readability on small screens */
+  h1, h2, h3 {
+      font-size: 1.5em;
+  }
+
+  body, p, li, a {
+      font-size: 18px;
+  }
+}
+
+/* Other styles */
 pre {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 h1, h2, h3 {
-    line-height: 1.2
+  line-height: 1.2;
 }
 
-a:link {
+a:link, a:visited {
   text-decoration: none;
 }
 
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
+a:hover, a:active {
   text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
-h1 a {
-    color: #444;
-}
-
-h2 a {
-    color: #444;
 }
 
 .horizontal-menu {
   list-style-type: none; /* Removes bullet points */
-  padding: 0; /* Removes default padding */
-  margin: 0; /* Removes default margin */
-  display: flex; /* Aligns items in a row */
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 .horizontal-menu li {
-  margin-right: 15px; /* Adds space between items */
+  margin-right: 15px;
 }
 
 .horizontal-menu li:last-child {
-  margin-right: 0; /* Removes space after the last item */
+  margin-right: 0;
 }
 
 .horizontal-menu a {
-  text-decoration: underline; /* Removes underline from links */
-  color: #333; /* Sets link color */
+  text-decoration: underline;
+  color: #333;
   font-weight: bold;
 }
 
 .horizontal-menu a:hover {
-  color: orangered; /* Changes color on hover */
+  color: orangered;
 }
