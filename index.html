@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagastvme | Eduardo Gomara Sagastume</title>
+    <script src="./reactive.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body onload="setReactiveData()">
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>My name is Eduardo Gomara Sagastume, and I am an AWS Cloud Developer, Python & AI Specialist.</p>
+            <p>I was born in Madrid, Spain, with roots in both America and Spain. I graduated as a software engineer in Spain and started my coding journey through a friend's recommendation to join the <a href="https://www.42madrid.com/" target="_blank" rel="noopener">42 Madrid <span aria-hidden="true">↗</span></a> bootcamp. There, we focused on problem-solving through peer collaboration without teachers, coding in C. Afterward, I pursued a software engineering degree, covering everything from the basics of the LAMP stack to AWS serverless architecture. Since graduation, I’ve worked with several companies (<em>Note: add JS script to display my companies from LinkedIn or similar sources</em>).</p>
+            <p>I’ve also earned multiple certifications (<em>Note: add JS script to show my certifications</em>).</p>
+        </section>
+
+        <section id="interests">
+            <h2>What I Like</h2>
+            <p>I enjoy coding and helping people automate tasks so they can focus on what truly matters.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>Below is a dynamically generated list of my GitHub projects:</p>
+            <ol id="listOfRepos">
+                <!-- Dynamic content from reactive.js -->
+            </ol>
+            <p>For my full project portfolio, visit <a href="https://github.com/sagastvme" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>.</p>
+        </section>
+
+        <section id="philosophy">
+            <h2>My Philosophy</h2>
+            <p>This site avoids fancy animations and heavy frameworks. I believe in simplicity, efficiency, and minimal dependencies. This approach keeps the site fast, light, and accessible, allowing me to focus on core tasks.</p>
+            <p>Using HTML’s natural semantic structure makes content accessible to all. Complex animations add unnecessary complexity, so I focus on simplicity—not to avoid problem-solving, but to prioritize business logic and productivity.</p>
+            <p>For further insights, I recommend <a href="https://grugbrain.dev/" target="_blank" rel="noopener">Grug Brain <span aria-hidden="true">↗</span></a> and <a href="https://www.radicalsimpli.city/" target="_blank" rel="noopener">Radical Simplicity <span aria-hidden="true">↗</span></a>.</p>
+
+            <h3>This Website is Basic, and That’s How I Like It</h3>
+            <p>This website is straightforward—no frills, just what I need. Some people may prefer complexity, but I enjoy simplicity. It might not impress everyone, but it serves my purpose perfectly.</p>
+            <p>The site is hosted on Lighttpd in a Docker container on an Oracle VPS, with JavaScript for reactive data. I also used ChatGPT to confirm correct HTML tags for accessibility. A reverse proxy enables HTTPS access, and DuckDNS provides a free dynamic domain (thanks, DuckDNS! Here’s the link to <a href="https://www.duckdns.org/" target="_blank" rel="noopener">DuckDNS <span aria-hidden="true">↗</span></a> if you'd like to donate).</p>
+            <p>I prefer updating via SSH to live-update the code (although not recommended) over maintaining a fancy portfolio that may be prone to breakage or lack responsiveness.</p>
+
+            <h3>Where Are the Images and Distractions?</h3>
+            <p>I’m currently addressing screen addiction. If you’ve read this far without distractions, I’m proud of you. Perhaps one day, I’ll add a touch of color, but only when I feel ready.</p>
+
+            <h3>TL;DR</h3>
+            <p>This isn’t a portfolio to sell myself, but a personal page. Read on if you’d like to get to know me better; if not, that’s okay too.</p>
+
+            <h3>Monolithic or Serverless</h3>
+            <p>It depends. For a small company with a primary need for a CRM, I’d suggest a monolithic structure, perhaps with a cloud-hosted database to manage sensitive data securely.</p>
+            <p>Serverless options may be overkill for simpler needs. Know what’s best for your use case, and embrace simplicity when it’s effective.</p>
+            <p>When faced with lagging performance, consider hybrid scaling and moving heavy compute tasks to serverless solutions, focusing on Infrastructure as Code for long-term benefits.</p>
+
+            <h3>Scaling Cloud Setup</h3>
+            <p>If your setup has scaled, congratulations! At some point, self-hosting may become more cost-effective, as some companies find. <a href="https://world.hey.com/dhh/our-cloud-exit-savings-will-now-top-ten-million-over-five-years-c7d9b5bd" target="_blank" rel="noopener">Here’s an example <span aria-hidden="true">↗</span></a>.</p>
+
+            <h3>Why Hire Me?</h3>
+            <p>If you’ve read this far, thank you! I’m currently managing screen time, but I’ll update this section when I return to full capacity. For now, explore my best work in the projects section, which is dynamically updated from GitHub.</p>
+            <p>I focus on practical, maintainable solutions, valuing lightweight, clear code over complex architectures.</p>
+
+            <h3>Typed Languages or No Types</h3>
+            <p>I now lean towards typed languages, though I still appreciate Python for its simplicity. Typed languages help maintain standards and improve code quality.</p>
+
+            <h3>Choosing a JavaScript Framework</h3>
+            <p>Can you accomplish your goals with vanilla JavaScript? Replicating framework features with vanilla JS is highly educational, as I’ve learned from experience.</p>
+
+            <h3>SPA or Server-Side Website?</h3>
+            <p>SPAs are interesting, but browsers already offer routing, caching, etc. Use SPAs if they add real value, but remember you have other options.</p>
+
+            <h3>JSON or HTML Responses?</h3>
+            <p>If there’s no need for a mobile app, return HTML for simplicity. Alternatively, consider an API that supports a ‘/json’ mode for flexibility.</p>
+
+            <h3>Learning Git is Essential</h3>
+            <p>Version control is crucial. Familiarize yourself with tools like Jenkins, Git CLI, and open-source contributions—it’s rewarding and vital for growth.</p>
+
+            <h3>Master Your IDE</h3>
+            <p>Learn all shortcuts and tools your IDE offers; it will significantly improve your productivity.</p>
+
+            <h3>Take Care of Your Posture and Ergonomics</h3>
+            <p>Understanding posture, ergonomic tools, and potential risks of being a developer is essential. Learn about carpal tunnel, kyphosis, and myopia risks, and remember to stretch and give your eyes breaks regularly.</p>
+
+            <h3>Use AI Sparingly</h3>
+            <p>AI is helpful for specific tasks and debugging, but rely on it sparingly. Avoid AI dependency when you can achieve results manually, as it’s often more reliable and efficient.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <address>
+                <p>Written by <a href="mailto:eduardo.gomara.sagastume@gmail.com">Eduardo Gomara Sagastume</a></p>
+                <p>Connect with me on <a href="https://linkedin.com/in/sagastvme" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a></p>
+                <p>Explore my projects on <a href="https://github.com/sagastvme" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></p>
+            </address>
+        </section>
