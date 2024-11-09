@@ -5,38 +5,40 @@ body {
   line-height: 1.6;
   font-size: 20px;
   color: #444;
+  background-color: #fff;
   padding: 0 10px;
 }
+
+/* Dark mode styling */
 
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
   body {
-      margin: 0;
-      padding: 0 5px; /* Reduced padding for mobile */
-      max-width: 100%; /* Allows body to fit the screen width */
+    margin: 0;
+    padding: 0 5px;
+    max-width: 100%;
   }
 
   .horizontal-menu {
-      flex-direction: column; /* Stack menu items vertically on small screens */
-      align-items: flex-start; /* Align items to the left */
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .horizontal-menu li {
-      margin-right: 0;
-      margin-bottom: 10px; /* Space between items in vertical stack */
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
   .horizontal-menu li:last-child {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
-  /* Adjust font size for better readability on small screens */
   h1, h2, h3 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   body, p, li, a {
-      font-size: 18px;
+    font-size: 18px;
   }
 }
 
@@ -58,7 +60,7 @@ a:hover, a:active {
 }
 
 .horizontal-menu {
-  list-style-type: none; /* Removes bullet points */
+  list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
@@ -72,6 +74,7 @@ a:hover, a:active {
   margin-right: 0;
 }
 
+/* Default styling for .horizontal-menu a */
 .horizontal-menu a {
   text-decoration: underline;
   color: #333;
@@ -80,4 +83,32 @@ a:hover, a:active {
 
 .horizontal-menu a:hover {
   color: orangered;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ddd;
+    background-color: #222;
+  }
+
+  a {
+    color: #ff4500;
+  }
+
+  a:hover {
+    color: #ff4500;
+  }
+
+  /* Dark mode styling specifically for .horizontal-menu a */
+  .horizontal-menu a {
+    color: #ccc; /* Lighter color for dark background */
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .horizontal-menu a:hover {
+    color: #ff4500;
+  }
 }
