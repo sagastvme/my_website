@@ -9,7 +9,7 @@ This project is built to be lightweight and easy to deploy. Here’s a quick bre
 
 - **Docker**: The portfolio site is hosted using a simple `lighttpd` server, managed within a Docker container for easy deployment and environment consistency.
 - **JavaScript**: The site uses JavaScript to create reactive, interactive elements for a more dynamic user experience.
-- **Jenkins**: On my VPS, Jenkins is set up to automate the deployment process, ensuring that any updates are deployed seamlessly.
+- **Jenkins**: On my VPS, Jenkins is set up to automate the deployment process, ensuring that any updates are deployed seamlessly with github webhooks.
 
 ## Features
 
